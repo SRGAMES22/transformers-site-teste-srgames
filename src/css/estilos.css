@@ -3,7 +3,6 @@ font-family: 'poppins';
 
 }
 
-
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -13,8 +12,6 @@ max-width: 1440px;
 margin: 0 auto;
 
 }
-
-
 
 
 .cabecalho .logo {
@@ -30,15 +27,17 @@ margin: 0 auto;
 
 .cabecalho nav li a {
     font-weight: bold;
-    color: aliceblue;
+    color: rgb(22, 234, 227);
     font-size: 25px;
     padding: 10px 20px;
     border-radius: 50px;
     transition: 0.2s;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 }
 
 .cabecalho nav li a:hover {
-    background-color: #e71212;
+    background-color: gold;
 
 }
 
@@ -56,7 +55,7 @@ padding: 0 30px 30px;
 }
 
 .container .descricao {
-    color: #a8adb7;
+    color: #fefeff;
     width: 85%;
     font-size: 18px;
     margin: 30px 0;

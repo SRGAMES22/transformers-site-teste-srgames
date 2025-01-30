@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     body {
-        background-color: rgb(69, 4, 99);
+background: radial-gradient(circle,#000607, #000000, #220037);
     }
 
 .fundo-video {
@@ -24,7 +24,7 @@
 }
 
 .container .descricao {
-    color:#67c8de;
+    color: rgb(22, 234, 227);
     text-align: center;
 }
 
